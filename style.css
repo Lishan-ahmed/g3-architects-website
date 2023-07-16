@@ -1,0 +1,51 @@
+/* work sans font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+*{
+     font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+
+.header{
+    background-color: rgb(197, 165, 126);
+    padding: 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+        display: flex; 
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav li a{
+        text-decoration: none;
+        color: #424242;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
