@@ -89,3 +89,20 @@ nav li a{
     }
     
 }
+
+
+/* main section */
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.temas-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
